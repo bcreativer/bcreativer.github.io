@@ -341,7 +341,8 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 
 }
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 435px) {
 	.to-top {
 		width: 20%;
 	}
@@ -435,6 +436,9 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 	}
 
 }
+
+
+
 
 
 
