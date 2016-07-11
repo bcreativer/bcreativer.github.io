@@ -23,7 +23,7 @@
 
 	.header-nav ul li {
 		font-family: 'Roboto', sans-serif;
-		color: #000;
+		color: rgba(0,0,0,0.6);
 		text-decoration: none;
 		font-size: 1.6em;
 		display: inline-block;
@@ -47,7 +47,6 @@
 .describe-me {
 	width: 30%;
 	height: 150px;
-	color: #fff;
 	margin-left: 35%;
 	margin-top: 5%;
 }
@@ -56,12 +55,16 @@
 		line-height: 1.2em;
 		font-size: 1.2em;
 		font-family: Futura, san-serif;
+		color: rgba(0,0,0,0.6);
+		text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
 	}
 
 /* Portfolio */
 
 .portfolio {
 	margin-bottom: 3%;
+	color: rgba(0,0,0,0.6);
 }
 	.portfolio h1 {
 		font-family: 'Roboto', sans-serif;
@@ -76,19 +79,20 @@
 .portfolio-1 {
 	width: auto;
 }
-	.portfolio-1 img{
+	.portfolio-1 img {
 		width: 400px;
-		height: 270px;
+		height: 350px;
 	}
-
+		
 	.portfolio-1 figure{
 		margin-left: 30%;
 		margin-bottom: 10%;
+		text-align: center;
 	}
 
 	.portfolio-1 figcaption {
-		padding-top: 2%;
-		padding-left: 35%;
+		font-size: 1.5em;
+		margin-top: 2%;
 	}
 
 .portfolio-2 {
@@ -97,17 +101,18 @@
 
 	.portfolio-2 img{
 		max-width: 400px;
-		height: 270px;
+		height: 350px;
 	}
 
 	.portfolio-2 figure {
 		margin-left: 20%;
 		margin-bottom: 10%;
+		text-align: center;
 	}
 
 	.portfolio-2 figcaption {
-		padding-top: 2%;
-		padding-left: 35%;
+		font-size: 1.5em;
+		margin-top: 2%;
 	}
 
 /* About */
@@ -124,6 +129,7 @@
 		font-family: 'Roboto', sans-serif;
 		padding-top: 2%;
 		padding-left: 18%;
+		color: rgba(0,0,0,0.6);
 	}
 
 	.about-1 {
@@ -148,12 +154,15 @@
 
 	.about-2 h2{
 		font-family: 'Roboto', sans-serif;
+		color: rgba(0,0,0,0.6);
+text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
 	}
 
 	.about-2 p {
 		font-family: Futura, san-serif;
+		color: rgba(0,0,0,0.6);
 	}
-
 	.about-2 hr {
 		color: #fff;
 	}
@@ -162,6 +171,7 @@
 
 .contact {
 	margin-bottom: 5%;
+	color: rgba(0,0,0,0.6);
 }
 
 	.contact h1 {
@@ -247,51 +257,17 @@
 			 text-decoration: none;
 		}
 
-/* Blog */
-.blog {
-	padding-left: 10%;
-	font-family: 'Roboto', sans-serif;
-	background-color: #fff100;
-}
-
-	.blog h1 {
-		padding-top: 3%;
-		padding-bottom: 5%;
-		color: #fff;
-	}
-
-	.blog a:hover {
-		text-decoration-style: dotted;
-	}
-
-	.blog figure {
-		margin-bottom: 10%;
-	}
-
-	.blog figure img {
-		width: 430px;
-		height: 350px;
-	}
-
-	.blog figcaption {
-		text-align: center;
-		margin-top: 2%;
-		margin-right: 20%;
-		color: #fff;
-		text-align: center;
-	}
-
-		.blog figcaption hr {
-			width: 50%;
-			border-color: #000;
-		}
-
 
 .copyright {
 	font-family: Futura, san-serif;
 	font-size: 1.2em;
 	text-align: center;
 	margin: 2%;
+}
+
+.footer {
+	background-color: #fff100;
+	color: rgba(0,0,0,0.6);
 }
 
 .to-top {
@@ -362,18 +338,6 @@
 		width: 100%;
 	}
 
-	.blog .blog-post-1 figure img {
-		width: 300px;
-		margin-left: -15%;
-	}
-
-	.blog .blog-post-2 figure img {
-		width: 300px;
-		margin-left: -15%;
-	}
-
-
-
 
 }
 
@@ -414,7 +378,8 @@
 		}
 
 	.portfolio {
-		height: 1400px;
+		height: 1800px;
+		font-size: 0.8em;
 	}
 
 		.portfolio-1 {
@@ -423,29 +388,34 @@
 
 		.portfolio-1 figure {
 			width: 400px;
-			margin-left: 20%;
+			margin-left: 2%;
+			padding-bottom: 15%;
 		}
 			.portfolio-1 figure img {
 				width: 300px;
-				margin-left: 5%;
+				margin-left: -5%;
 			}
 
 			.portfolio-1 figcaption {
 				margin-left: 2%;
+				margin-top: 2%;
 			}
 
 		.portfolio-2 figure{
 			width: 400px;
-			margin-left: 20%;
+			margin-left: 2%;
+			padding-bottom: 15%;
 		}
 			.portfolio-2 figure img {
 				width: 300px;
-				margin-left: 5%;
+				margin-left: -5%;
 			}
 
 			.portfolio-2 figcaption {
 				margin-left: 2%;
+				margin-top: 2%;
 			}
+	
 
 	.about {
 		height: 1100px;
@@ -464,40 +434,7 @@
 		width: 100%;
 	}
 
-	.blog .blog-post-1 {
-		width: 100%;
-	}
-
-		.blog .blog-post-1 figure img {
-			max-width: 100%;
-			margin-left: 1%;
-		}
-
-		.blog .blog-post-1 figcaption p {
-			padding-left: 20%;
-		}
-
-		.blog .blog-post-1 figcaption hr {
-			margin-right: 15%;
-		}	
-
-	.blog .blog-post-2 {
-		width: 100%;
-	}
-		.blog .blog-post-2 figure img {
-			max-width: 100%;
-			margin-left: 1%;
-		}
-
-		.blog .blog-post-2 figcaption p {
-			padding-left: 20%;
-		}
-
-		.blog .blog-post-2 figcaption hr {
-			margin-right: 15%;
-		}	
-
-
+}
 
 
 
