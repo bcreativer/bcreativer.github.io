@@ -72,9 +72,17 @@
 		padding-left: 10%;
 		padding-bottom: 4%;
 	}
-		.portfolio h1 a {
+	.portfolio h4 {
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		font-style: italic;
+	}
+	.portfolio h1 a {
 			text-decoration: none;
-		}
+	}
+	.portfolio p {
+		font-style: italic;
+	}
 
 .portfolio-1 {
 	width: auto;
@@ -83,7 +91,7 @@
 		width: 400px;
 		height: 350px;
 	}
-		
+
 	.portfolio-1 figure{
 		margin-left: 30%;
 		margin-bottom: 10%;
@@ -105,7 +113,7 @@
 	}
 
 	.portfolio-2 figure {
-		margin-left: 20%;
+		margin-left: 5%;
 		margin-bottom: 10%;
 		text-align: center;
 	}
@@ -131,6 +139,7 @@
 		padding-left: 18%;
 		color: rgba(0,0,0,0.6);
 	}
+
 
 	.about-1 {
 		padding-left: 17%;
@@ -182,7 +191,7 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 	}
 
 	.contact .line {
-		font-family: Futura, san-serif;	
+		font-family: Futura, san-serif;
 		font-size: 1.8em;
 		padding-bottom: 2%;
 	}
@@ -246,7 +255,7 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 		  padding: 10px 20px 10px 20px;
 		  text-decoration: none;
 		  width: 20%;
-	}	
+	}
 		.form p button:hover {
 			 background: #3cb0fd;
 			 background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
@@ -380,7 +389,7 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 		}
 
 	.portfolio {
-		height: 1800px;
+		height: 1940px;
 		font-size: 0.8em;
 	}
 
@@ -417,7 +426,7 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 				margin-left: 2%;
 				margin-top: 2%;
 			}
-	
+
 
 	.about {
 		height: 1100px;
@@ -437,9 +446,3 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 	}
 
 }
-
-
-
-
-
-
