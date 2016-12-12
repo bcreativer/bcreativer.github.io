@@ -303,7 +303,10 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 /* Media Queries */
 
 @media screen and (min-width: 1450px) {
-	.portfolio-2 {
+	.describe-me p {
+		font-size: 1.5em;
+	}
+	.portfolio-1 figure:last-child, .portfolio-2 figure:last-child {
 		margin-right: 50%;
 	}
 
@@ -313,6 +316,10 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 
 	.about-1 img {
 		width: 70%;
+	}
+
+	.about-2 p {
+		font-size: 1.3em;
 	}
 }
 
