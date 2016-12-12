@@ -303,11 +303,15 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 /* Media Queries */
 
 @media screen and (min-width: 1450px) {
-	.portfolio-2 img, .portfolio-2 figcaption {
+	/*.portfolio-2 img, .portfolio-2 figcaption {
 		margin-right: 50%;
 	}
 	.portfolio-1 p:last-child, .portfolio-2 p:last-child {
 		margin-right:50%
+	}*/
+
+	.portfolio-2 {
+		margin-right: 50%;
 	}
 
 	.about {
