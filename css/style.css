@@ -306,7 +306,7 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 	.describe-me p {
 		font-size: 1.5em;
 	}
-	.portfolio-1 figure:last-child, .portfolio-2 figure:last-child {
+	.portfolio-2 figure {
 		margin-right: 50%;
 	}
 
